@@ -1,0 +1,13 @@
+.clock{
+    background-color: navy;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.clock h1:first-child{
+    margin: 10px;
+    color: blanchedalmond;
+    border-bottom: 1px solid white;
+}

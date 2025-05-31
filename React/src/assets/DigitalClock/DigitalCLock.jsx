@@ -1,4 +1,5 @@
 import { useState } from "react"
+import "./clock.css"
 
 export default function DigitalClock(){
 
@@ -30,6 +31,8 @@ export default function DigitalClock(){
     }
 
     return(
-        <h1>{formatTime()}</h1>
-    )
+        <div className="clock">
+        <h1>DIgital Clock</h1>
+        <h1 className="time">{formatTime()}</h1>
+    </div>)
 }

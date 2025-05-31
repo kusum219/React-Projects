@@ -11,8 +11,14 @@ import DigitalCLock from './assets/DigitalClock/DigitalCLock'
 function App() {
 
   return(
+    <div className='main'>
+    <Quiz />
+    <Todo />
+    <Game />
+    <WindowResize/>
     <DigitalCLock />
-  )
+</div> 
+ )
 }
 
 export default App

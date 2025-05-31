@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: center;
     height: 70vh;
+    margin: 50px 0px;
 }
 .square{
     border: 1px solid red;
@@ -17,5 +18,16 @@
     text-align: center;
     margin-right: -1px;
     margin-top: -1px;   
+    cursor: pointer;
+}
+.tic-tac-toe .reset{
+    background: red;
+    color: white;
+    padding: 10px;
+    width: 40%;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    outline: none;
     cursor: pointer;
 }

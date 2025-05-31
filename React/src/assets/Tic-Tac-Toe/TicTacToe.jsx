@@ -78,7 +78,7 @@ export default function Game() {
                     <Square value={squares[8]} onClick={() => handelClick(8)} />
                 </div>
                 <h1>{status}</h1>
-                <button onClick={handelRestart}>Restart</button>
+                <button className="reset" onClick={handelRestart}>Restart</button>
             </div>
         )
     }
