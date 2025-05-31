@@ -1,0 +1,71 @@
+#Todo{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+#head{
+    margin:10px;
+}
+#head h1{
+    color: aqua;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#head form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#head input{
+    background-color: grey;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;  
+    outline: none;
+    color: white;
+    border: none;  
+    font-size: 15px;
+}::placeholder{
+    color: white;
+    font-size: 15px;
+}
+#head button{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    outline: none;
+    border: none;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#body{
+    margin-top: 30px;
+}
+#body ul li{
+    list-style: none;
+    font-size: 20px;
+    margin:10px 0px;
+}
+#body ul li label{
+    margin:0px 10px;
+}
+
+#body ul li button{
+    background: red;
+    color: white;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+   border: none;
+}
